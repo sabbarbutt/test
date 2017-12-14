@@ -1,7 +1,45 @@
-/* Reset css */
+/* Global css */
 
-*{margin: 0px; padding: 0px;}
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '_variables';
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
 
-.wrapper { width: 640px; margin: 0 auto; }
+.clear {
+  clear: both;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: $font-stack;
+}
+
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+}
+
+.mat-tab-header {
+  background: #009bdb;
+}
+
+.mat-tab-label {
+  width: 50%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
 
 
+.mat-tab-label {
+  height: 48px;
+  font-size: 16px;
+  color: #fff;
+
+  opacity: 1 !important;
+}

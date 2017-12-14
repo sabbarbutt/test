@@ -1,5 +1,26 @@
 /* Header scss */
+@import '../_variables';
+header {
+  background:$header_bg;
+  padding: 20px 0 20px 0px;
+  border-bottom: 1px solid #d5d5d5;
+  .back {
+    padding-left: 30px;
+    a {
+      .fa {
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
 
-header { background: #009bdb;
-.back { }
+  .header-info {
+    h4 {
+      text-align: center;
+      font-weight: 400;
+      color: #fff;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
 }
