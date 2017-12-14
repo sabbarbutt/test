@@ -21,7 +21,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    MatTabsModule,
+   MatTabsModule,
     BrowserAnimationsModule,
     
   ],
